@@ -7,7 +7,7 @@
     "mixins": [
     ],
     "client": [
-        "MixinTitleScreen"
+      "tfar.booterosion.mixin.MixinTitleScreen"
     ],
     "server": [
     ],

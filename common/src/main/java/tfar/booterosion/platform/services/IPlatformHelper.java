@@ -1,4 +1,6 @@
-package com.example.examplemod.platform.services;
+package tfar.booterosion.platform.services;
+
+import tfar.booterosion.platform.MLConfig;
 
 public interface IPlatformHelper {
 
@@ -33,4 +35,7 @@ public interface IPlatformHelper {
 
         return isDevelopmentEnvironment() ? "development" : "production";
     }
+
+    MLConfig getConfig();
+
 }
